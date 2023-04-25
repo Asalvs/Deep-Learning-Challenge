@@ -4,7 +4,6 @@
 
 The purpose of this analysis is to create a binary classification model using deep learning techniques to predict if an organization funded by Alphabet Soup will be successful in their venture. The model utilizes a dataset of over 34,000 organizations that have received funding from Alphabet Soup, containing metadata about each organization.
 
-![Alphabet Soup](alphabet_soup_image.png)
 
 ## Results
 
@@ -14,7 +13,6 @@ The purpose of this analysis is to create a binary classification model using de
 - **Feature variable(s) for the model:** The feature variables for the model include `APPLICATION_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS`, and `ASK_AMT`.
 - **Variable(s) removed from the input data:** The `EIN` and `NAME` columns were removed from the input data as they are identification columns and not useful as features or targets.
 
-![Data Preprocessing](data_preprocessing_image.png)
 
 ### Compiling, Training, and Evaluating the Model
 
@@ -31,7 +29,7 @@ The purpose of this analysis is to create a binary classification model using de
   - Using different activation functions for the hidden layers.
   - Increasing or decreasing the number of epochs in the training regimen.
 
-![Model Evaluation](model_evaluation_image.png)
+
 
 ## Summary
 
@@ -39,4 +37,3 @@ The deep learning model did not achieve the desired performance of 75% accuracy 
 
 As an alternative recommendation, a Random Forest Classifier or a Gradient Boosting Classifier could be used to solve this classification problem. These ensemble learning methods have the potential to provide better accuracy and generalization without being as prone to overfitting as deep learning models. Further exploration of these alternative models may lead to improved performance in predicting the success of funded organizations.
 
-![Alternative Models](alternative_models_image.png)
