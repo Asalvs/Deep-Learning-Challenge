@@ -1,5 +1,4 @@
 
-Asal Valisoltani
 # Alphabet Soup Deep Learning Model for Funding Success Prediction
 
 ## Overview of the Analysis
