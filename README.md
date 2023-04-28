@@ -13,7 +13,7 @@ The purpose of this analysis is to create a binary classification model using de
 - **Feature variable(s) for the model:** The feature variables for the model include `APPLICATION_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS`, and `ASK_AMT`. 
 - **Variable(s) removed from the input data:** The `EIN` and `NAME` columns were removed from the input data as they are identification columns and not useful as features or targets.
 
--`NAME` has been brought back in the last model as a Feature Variable.
+- **Feature variable** `NAME` has been brought back in the last model as a Feature Variable.
 
 ### Compiling, Training, and Evaluating the Model
 
